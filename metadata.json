@@ -1,0 +1,5 @@
+{
+  "name": "A-Share Analyst Pro",
+  "description": "A professional-grade A-share market analysis dashboard featuring volume-price analysis, bond-stock models, signal backtesting, and top/bottom indicators using real-time data.",
+  "requestFramePermissions": []
+}
