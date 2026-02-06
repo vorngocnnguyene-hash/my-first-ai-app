@@ -41,7 +41,7 @@ export const TopBottomView: React.FC<TopBottomViewProps> = ({ data }) => {
     <div className="flex flex-col h-full space-y-4">
       <div className="bg-white p-3 rounded-lg border border-slate-200 shadow-sm text-sm text-slate-600 flex items-center gap-2">
         <span className="font-bold text-slate-800">HDY 顶底指标:</span>
-        <span className="text-green-600 font-medium"> > 90 顶部风险</span>
+        <span className="text-green-600 font-medium"> &gt; 90 顶部风险</span>
         <span className="text-slate-300">|</span>
         <span className="text-red-500 font-medium"> &lt; 10 底部机会 (黄金坑)</span>
       </div>
