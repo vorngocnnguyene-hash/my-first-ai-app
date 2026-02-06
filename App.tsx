@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { TabType, ETFOption, StockDataPoint } from './types';
 import { fetchVolumeData, fetchBondData, fetchBacktestData } from './services';
-import { VolumeView } from './components/VolumeView';
-import { BondView } from './components/BondView';
-import { BacktestView } from './components/BacktestView';
-import { TopBottomView } from './components/TopBottomView';
+import { VolumeView } from './components/VolumeView.tsx';
+import { BondView } from './components/BondView.tsx';
+import { BacktestView } from './components/BacktestView.tsx';
+import { TopBottomView } from './components/TopBottomView.tsx';
 import { Activity, BarChart2, TrendingUp, Layers, ArrowUpCircle } from 'lucide-react';
 
 const ETF_OPTIONS: ETFOption[] = [
